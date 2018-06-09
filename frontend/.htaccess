@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteBase /jualikan.id
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule (?|web\/) index.php/$1
